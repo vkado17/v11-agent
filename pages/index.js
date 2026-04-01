@@ -1,14 +1,15 @@
 import { useState } from "react";
 
-const DEFAULT_TEMPLATE = `Hi {{first_name}},
+const DEFAULT_TEMPLATE = `Hey {{first_name}},
 
-Your work at {{company}} caught my attention — specifically what you're building in the {{sector}} space.
+Love your work with {{company}}. Someone in V11 mentioned you’re doing extremely interesting work in {{sector}}, so I wanted to extend a quick personal invite to you. 
 
-I run V11, a curated dinner series for the most interesting founders and researchers at the frontier. Our next gathering is in {{city}} on {{date}} — small group (~15 people), high signal, no pitch decks. Just great conversation with people doing exceptional work.
+Hosting a small, invite-only 3-course private dinner for 10 exceptional Infra/ML founders next week in SF. Attendees include others building in data / RL, orchestration, and agent interfaces, etc.
 
-Would love to have you join us. Interested?
+If you’re around, we’d love to have you - here’s the [private invite link](https://luma.com/nlntmttj).
 
-Vatsalya Verma
+Best,
+Vatsalya
 Co-founder, V11`;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
